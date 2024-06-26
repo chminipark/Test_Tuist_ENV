@@ -9,5 +9,5 @@ import ProjectDescription
 
 let workspace: Workspace = .init(
   name: "TEST_TUIST_ENV",
-  projects: [.relativeToRoot("Projects/A")]
+  projects: [.relativeToRoot("Projects/App")]
 )
