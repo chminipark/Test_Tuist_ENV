@@ -18,7 +18,8 @@ let project: Project = .init(
       destinations: .iOS,
       product: .staticLibrary,
       bundleId: .bundleID(name),
-      sources: ["Sources/**"]
+      sources: ["Sources/**"],
+      resources: ["Resources/**"]
     )
   ]
 )
